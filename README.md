@@ -1,8 +1,11 @@
 # EXPERIMENT--01-ALP-FOR-8086
 
+```
 Name : MONISHA T
 Roll no : 212221240029
 Date of experiment : 09.09.2022
+
+```
 
 # Aim: 
 
@@ -46,6 +49,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP :-
 
+```
 name "ADDITION"
 org 100h
 MOV AX,05H;
@@ -55,11 +59,14 @@ MOV CX,AX;
 MOV AX,00H;
 HLT;
 
+```
 ## Output :-
 
 ![output](./add6.png)
  
 ## Subtraction   of 8 bit numbers  ALP :-
+
+```
 
 name "SUBTRACTION"
 org 100h
@@ -69,12 +76,16 @@ SUB AH,BH;
 MOV CH,AH;
 MOV AH,00H;
 HLT;
+
+```
  
 ## Output :-
 
 ![output](./sub1.png)
 
 ## Multiplication of 8 bit alp :-
+
+```
 
 name "MULTIPLICATION"
 org 700h
@@ -85,12 +96,15 @@ MOV CL,AL;
 MOV AL,00H;
 HLT;
 
+```
+
  ## Output :-
 
  ![output](./mul.png)
 
 ## Division of 8 bit alp :-
 
+```
 name "DIVISION"
 org 700h
 MOV AL,40H;
@@ -99,6 +113,8 @@ DIV BL;
 MOV CL,AL;
 MOV AL,00H;
 HLT;
+
+```
 
 ## Output :-
 
